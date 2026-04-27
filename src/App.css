@@ -26,9 +26,20 @@ html, body {
 
 .contenedor-principal {
   min-height: 600px;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
 
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 1.8em;
+    margin: 24px 0;
+    text-align: center;
+  }
 }
